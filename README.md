@@ -4,13 +4,21 @@ module to parse and manipulate IPv4 addresses
 ## Examples
 IPAddressv4 constructor supports and identifies:
 decimal
-```IPAddressv4("192.168.0.1")```
+```
+IPAddressv4("192.168.0.1")
+```
 binary
-```IPAddressv4("10101010.11110000.00000000.00011000")```
+```
+IPAddressv4("10101010.11110000.00000000.00011000")
+```
 raw
-```IPAddressv4("10101010111100000000000000011000")```
+```
+IPAddressv4("10101010111100000000000000011000")
+```
 bits
-```IPAddressv4("24")```
+```
+IPAddressv4("24")
+```
 
 IPAddressv4 calculates and store:
 ```
